@@ -1,0 +1,29 @@
+Evidencia 2:
+
+Sistema de Recomendación de Carreras Universitarias
+
+Descripción: 
+
+El objetivo de este proyecto es desarrollar un sistema de recomendación de carreras universitarias 
+para estudiantes que estén indecisos sobre qué carrera elegir. El sistema utilizará un árbol binario c
+onstruido mediante listas ligadas para tomar decisiones basadas en las preferencias y habilidades de los estudiantes.
+
+
+Componentes del proyecto:
+
+Clase Node: Esta clase representará cada nodo individual en la lista ligada y en el árbol binario. Cada nodo contendrá un dato (en este caso, un archivo) y enlaces a sus nodos hijos izquierdo y derecho.
+
+Clase ListaLigada: Esta clase gestionará la estructura de la lista ligada que se utilizará para construir el árbol binario. Deberá tener métodos para insertar nodos, eliminar nodos y otras operaciones básicas de lista ligada.
+
+Clase NodeTree: Esta clase se encargará de la construcción y manipulación de los árboles binarios utilizando los nodos de la lista ligada. Deberá tener métodos para insertar nodos en el árbol, buscar nodos, eliminar nodos, recorrer el árbol en diferentes órdenes (inorden, preorden, postorden), etc.
+
+Clase Tree: Esta clase será la interfaz principal para interactuar con el árbol binario. Deberá proporcionar métodos para agregar archivos al sistema, buscar archivos, eliminar archivos, listar archivos en orden, entre otras operaciones.
+
+
+Funcionalidades sugeridas:
+
+Iniciar recomendación de carrera: El sistema comenzará a hacer preguntas sobre las preferencias y habilidades del estudiante para recomendar una carrera adecuada.
+
+Responder a las preguntas del sistema: El estudiante responderá a las preguntas del sistema seleccionando una de las opciones proporcionadas.
+
+Obtener carrera recomendada: Una vez que se hayan respondido todas las preguntas, el sistema recomendará una carrera universitaria basada en las respuestas del estudiante.
