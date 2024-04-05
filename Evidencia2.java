@@ -3,38 +3,55 @@ import java.util.Scanner;
 public class Evidencia2{
     public static void main(String[] args) {
 
-        boolean ciclo = true;
 
-        while(ciclo){
-
-            Scanner scanner = new Scanner(System.in);
-            space();
-            System.out.println("TEST CARRERA UNIVERSITARIA: ");
-            System.out.print("Iniciar Test - Presiona 1 \nSalir del Test - Presiona 2 \nElige una opcion: ");
-            int opcion = scanner.nextInt();
-
-
-            if(opcion == 1){
-                space();
-                space();
-                space();
-            }
-            else if(opcion == 2){
-                ciclo = false;
-            }
-            else{
-                space();
-                System.out.println("Elige una opcion valida!!!");
-                space();
-            }
-            space();
-
-        }
+        //arbolBinario();
+       
 
     }
 
-    public static void space(){
+    public static void arbolBinario(){
+         // Crear un árbol
+         Arbol arbol = new Arbol();
 
-        System.out.println("\n\n");
+         // Insertar valores en el árbol
+         arbol.insertar(10);
+         arbol.insertar(5);
+         arbol.insertar(15);
+         arbol.insertar(3);
+         arbol.insertar(7);
+         arbol.insertar(12);
+         arbol.insertar(17);
+ 
+         // Mostrar el árbol en diferentes órdenes
+         System.out.println("Recorrido inorden:");
+         arbol.inorden(); // Debería mostrar 3, 5, 7, 10, 12, 15, 17
+ 
+         System.out.println("\nRecorrido preorden:");
+         arbol.preorden(); // Debería mostrar 10, 5, 3, 7, 15, 12, 17
+ 
+         System.out.println("\nRecorrido postorden:");
+         arbol.postorden(); // Debería mostrar 3, 7, 5, 12, 17, 15, 10
+ 
+ 
+         // Buscar un valor en el árbol
+         int valorBuscar = 12;
+         Nodo nodoEncontrado = arbol.buscar(valorBuscar);
+         if (nodoEncontrado != null) {
+             System.out.println("\nEl valor " + valorBuscar + " se encuentra en el árbol.");
+         } else {
+             System.out.println("\nEl valor " + valorBuscar + " no se encuentra en el árbol.");
+         }
+ 
+         // Eliminar un valor del árbol
+         int valorEliminar = 5;
+         arbol.eliminar(valorEliminar);
+ 
+         // Mostrar el árbol después de eliminar el nodo
+         System.out.println("\nRecorrido inorden después de eliminar el nodo con valor " + valorEliminar + ":");
+         arbol.inorden(); // Debería mostrar 3, 7, 10, 12, 15, 17
+     }
     }
-}
+
+
+
+  
