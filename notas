@@ -27,3 +27,115 @@ Iniciar recomendación de carrera: El sistema comenzará a hacer preguntas sobre
 Responder a las preguntas del sistema: El estudiante responderá a las preguntas del sistema seleccionando una de las opciones proporcionadas.
 
 Obtener carrera recomendada: Una vez que se hayan respondido todas las preguntas, el sistema recomendará una carrera universitaria basada en las respuestas del estudiante.
+
+
+
+
+
+
+
+
+QUIZ: 
+
+
+¿Te gusta resolver problemas matemáticos y lógicos?
+a) Sí
+b) No
+
+¿Disfrutas trabajando con computadoras y tecnología?
+a) Sí
+b) No
+
+¿Te interesa mejorar la eficiencia de los procesos industriales?
+a) Sí
+b) No
+
+¿Tienes habilidades para liderar equipos y tomar decisiones estratégicas?
+a) Sí
+b) No
+
+¿Te atrae la idea de crear estrategias para promocionar productos o servicios?
+a) Sí
+b) No
+
+¿Te gustaría trabajar en el ámbito financiero y económico?
+a) Sí
+b) No
+
+¿Te interesan los aspectos legales y la resolución de conflictos?
+a) Sí
+b) No
+
+¿Eres bueno/a en la comunicación y negociación?
+a) Sí
+b) No
+
+¿Te interesa el comportamiento humano y las emociones?
+a) Sí
+b) No
+
+¿Te gusta aprender sobre nutrición y su impacto en la salud?
+a) Sí
+b) No
+
+¿Tienes habilidades para el diseño gráfico y la creatividad visual?
+a) Sí
+b) No
+
+¿Te apasiona la cocina y la experimentación con alimentos?
+a) Sí
+b) No
+
+¿Te interesa ayudar a las personas a superar sus problemas emocionales?
+a) Sí
+b) No
+
+¿Te gustaría trabajar en el diseño y desarrollo de robots y sistemas automatizados?
+a) Sí
+b) No
+
+¿Disfrutas de combinar aspectos técnicos con creatividad en tus proyectos?
+a) Sí
+b) No
+
+¿Prefieres trabajar en un entorno empresarial y de negocios?
+a) Sí
+b) No
+
+¿Te gustaría trabajar en el ámbito de la salud y el bienestar?
+a) Sí
+b) No
+
+¿Te interesa la creación y gestión de proyectos relacionados con la ingeniería?
+a) Sí
+b) No
+
+¿Te atrae la idea de trabajar en el área de la moda, diseño o arquitectura?
+a) Sí
+b) No
+
+¿Te gustaría trabajar en la investigación y análisis científico?
+a) Sí
+b) No
+
+Ahora, suma tus respuestas "a" y "b" según las siguientes categorías:
+
+Respuestas "a":
+
+Ingeniería en Desarrollo de Software: Pregunta 2, 18
+Ingeniería Industrial: Pregunta 3, 18
+Ingeniería Mecatrónica: Pregunta 14, 18
+Respuestas "b":
+
+Administración: Pregunta 4, 16
+Marketing: Pregunta 5, 16
+Finanzas: Pregunta 6, 16
+Derecho: Pregunta 7, 16
+Psicología: Pregunta 9, 17
+Nutrición: Pregunta 10, 17
+Diseño Gráfico: Pregunta 11, 19
+Gastronomía: Pregunta 12, 17
+Psicología: Pregunta 13, 17
+Negocios: Pregunta 16
+Salud: Pregunta 17
+Creativas: Pregunta 19, 20
