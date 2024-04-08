@@ -1,0 +1,122 @@
+
+
+
+        System.out.print("¿Te sientes atraído por la resolución de problemas y la creación de soluciones innovadoras? \nSI - PRESIONA 1 \nNO - PRESIONA 2 \nElige una opcion: ");
+        int pregunta1 = scanner.nextInt();
+
+        System.out.print("¿Disfrutas trabajar con tecnología y software para crear aplicaciones y programas? \nSI - PRESIONA 1 \nNO - PRESIONA 2 \nElige una opcion: ");
+        int pregunta2 = scanner.nextInt();
+
+        System.out.print("¿Te interesa el funcionamiento y la optimización de procesos industriales? \nSI - PRESIONA 1 \nNO - PRESIONA 2 \nElige una opcion: ");
+        int pregunta3 = scanner.nextInt();
+
+        System.out.print(" ¿Tienes habilidades para organizar y dirigir equipos de trabajo?\nSI - PRESIONA 1 \nNO - PRESIONA 2 \nElige una opcion: ");
+        int pregunta4 = scanner.nextInt();
+
+        System.out.print(" ¿Te gustaría trabajar en la planificación y ejecución de estrategias de marketing? \nSI - PRESIONA 1 \nNO - PRESIONA 2 \nElige una opcion: ");
+        int pregunta5 = scanner.nextInt();
+
+        System.out.print("¿Te atrae el mundo de las finanzas y la gestión económica? \nSI - PRESIONA 1 \nNO - PRESIONA 2 \nElige una opcion: ");
+        int pregunta6 = scanner.nextInt();
+
+        System.out.print(" ¿Te interesan los aspectos legales y la resolución de conflictos? \nSI - PRESIONA 1 \nNO - PRESIONA 2 \nElige una opcion: ");
+        int pregunta7 = scanner.nextInt();
+
+        System.out.print("¿Tienes habilidades para la comunicación y la negociación? \nSI - PRESIONA 1 \nNO - PRESIONA 2 \nElige una opcion: ");
+        int pregunta8 = scanner.nextInt();
+
+        System.out.print("¿Te gusta trabajar en entornos relacionados con la salud y el bienestar emocional? \nSI - PRESIONA 1 \nNO - PRESIONA 2 \nElige una opcion: ");
+        int pregunta9 = scanner.nextInt();
+
+        System.out.print("¿Te interesa la relación entre la alimentación y la salud? \nSI - PRESIONA 1 \nNO - PRESIONA 2 \nElige una opcion: ");
+        int pregunta10 = scanner.nextInt();
+
+        System.out.print("¿Tienes habilidades para la creatividad y el diseño visual? \nSI - PRESIONA 1 \nNO - PRESIONA 2 \nElige una opcion: ");
+        int pregunta11 = scanner.nextInt();
+
+        System.out.print("¿Te gusta cocinar y experimentar con diferentes ingredientes? \nSI - PRESIONA 1 \nNO - PRESIONA 2 \nElige una opcion: ");
+        int pregunta12 = scanner.nextInt();
+
+        System.out.print("¿Te atrae la idea de trabajar en la investigación y el análisis psicológico? \nSI - PRESIONA 1 \nNO - PRESIONA 2 \nElige una opcion: ");
+        int pregunta13 = scanner.nextInt();
+
+        System.out.print("¿Te gustaría trabajar en el diseño y desarrollo de robots y sistemas automatizados? \nSI - PRESIONA 1 \nNO - PRESIONA 2 \nElige una opcion: ");
+        int pregunta14 = scanner.nextInt();
+
+        System.out.print("¿Disfrutas trabajar en proyectos donde puedas combinar aspectos técnicos con creatividad? \nSI - PRESIONA 1 \nNO - PRESIONA 2 \nElige una opcion: ");
+        int pregunta15 = scanner.nextInt();
+
+
+
+        if(pregunta1 == 1 && pregunta2 == 1 && pregunta15 == 1){
+
+                space();
+                System.out.println("Tu carrera ideal es Ingenieria en Desarrollo de Software");
+            }
+    
+            if(pregunta1 == 1 && pregunta3 == 1 && pregunta4 == 1){
+    
+                space();
+                System.out.println("Tu carrera ideal es Ingenieria Industrial");
+            }
+    
+            if(pregunta1 == 1 && pregunta14 == 1 && pregunta15 == 1){
+    
+                space();
+                System.out.println("Tu carrera ideal es Ingenieria Mecatronica");
+            }
+    
+            if(pregunta4 == 1 && pregunta5 == 1){
+    
+                space();
+                System.out.println("Tu carrera ideal es Administracion");
+            }
+    
+            if(pregunta5 == 1 && pregunta8 == 1){
+    
+                space();
+                System.out.println("Tu carrera ideal es Marketing");
+            }
+    
+            if(pregunta4 == 1 && pregunta8 == 1){
+    
+                space();
+                System.out.println("Tu carrera ideal es Comercio");
+            }
+    
+            if(pregunta6 == 1 && pregunta8 == 1){
+    
+                space();
+                System.out.println("Tu carrera ideal es Finanzas");
+            }
+    
+            if(pregunta7 == 1 && pregunta8 == 1){
+    
+                space();
+                System.out.println("Tu carrera ideal es Derecho");
+            }
+    
+            if(pregunta12 == 1 && pregunta15 == 1){
+    
+                space();
+                System.out.println("Tu carrera ideal es Gastronomia");
+            }
+    
+            if(pregunta9 == 1 && pregunta13 == 1){
+    
+                space();
+                System.out.println("Tu carrera ideal es Psicologia");
+            }
+    
+            if(pregunta10 == 1 && pregunta15 == 1){
+    
+                space();
+                System.out.println("Tu carrera ideal es Nutricion");
+            }
+    
+            if(pregunta11 == 1 && pregunta15 == 1){
+    
+                space();
+                System.out.println("Tu carrera ideal es Diseño");
+            }
+    
