@@ -39,7 +39,11 @@ class Arbol {
 
     public String recomendarCarrera(int[] respuestas) {
         // Condicionales del Quiz
+
+        //Respuestas que elige el usuario
         if (respuestas[0] == 1 && respuestas[1] == 1 && respuestas[14] == 1) {
+            
+            //Se busca la carrera mediante el valor int del nodo
             return buscarCarreraPorValor(1);
         } else if (respuestas[0] == 1 && respuestas[2] == 1 && respuestas[3] == 1) {
             return buscarCarreraPorValor(2);
